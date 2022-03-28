@@ -7,7 +7,7 @@
 @section('content')
 
     <div>
-        {{-- <section class="jumbotron"/> --}}
+        <section class="jumbotron"></section>
                  
         <div class="container">
             <span class="btn_blue_big">Current Series</span>

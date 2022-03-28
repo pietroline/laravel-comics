@@ -1,7 +1,14 @@
 @import "./variables";
 
 main{
-    background-color: grey;
+
+    .jumbotron{
+        height: 38rem;
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;  
+    }
+
+  background-color: $colorMain;
 
     .container{
         @include centroPagina;
