@@ -1,0 +1,92 @@
+
+@import "./_variables";
+
+
+.headerUp{
+    background-color: $colorBlue;
+    color: #fff;
+    padding: 5px 10%;
+
+    text-align: end;
+    li{
+        list-style: none;
+        display: inline;
+        margin: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.spazioCentro{
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    margin: 2rem 0;
+
+    width: 4rem;
+
+    img{
+      width: 100%;
+    }
+  }
+
+nav{
+    text-transform: uppercase;
+
+    li{
+        display: inline-block;
+
+        padding: 1rem;
+
+        font-weight: bold;
+        font-size: 1rem;
+
+        a{
+            text-decoration: none;
+            color: $coloreNero; 
+        }
+
+        &:hover a{
+            color: $colorBlue;
+            border-bottom: 5px solid $colorBlue;
+            padding: 4rem 0;
+        }  
+
+        input{
+            border: none;
+            border-bottom: 2px solid $colorBlue;
+            text-align: end;
+            font-size: 20px;
+            padding: 0 20px;
+        }
+
+        .search{
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        i{
+            color: $coloreTestoGrigio;
+            position: absolute;
+            right: 0;
+        }
+
+      
+    }
+
+    .active{
+        border-bottom: 5px solid $colorBlue;
+        padding: 4rem 0;
+
+        a{
+            color: $colorBlue;
+        }
+    }
+}
+
