@@ -17,7 +17,7 @@
     
    <div class="spazioCentro">
 
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="{{asset('img/dc-logo.png')}}" alt="Logo DC">
         </a>
 
@@ -28,7 +28,7 @@
                     <a href="#">Characters</a>
                 </li>
                 <li class="active">
-                    <a href="#">Comics</a>
+                    <a href="/">Comics</a>
                 </li>
                 <li>
                     <a href="#">Movies</a>

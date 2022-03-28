@@ -1,7 +1,6 @@
 @import "./variables";
 
 // footer up start
-
 .footerUp{
     background-color: $colorBlue;
 
@@ -9,8 +8,6 @@
         @include centroPagina;
     }
 }
-
-
 
 .fasciaBlu{
 
@@ -46,18 +43,16 @@
         }
     }
 }
-
 // footer up end
 
 
 // footer middle inizio
 .footerMiddle{
-background-image: url('../img/footer-bg.jpg');
-// background-color: #000;
-background-size: cover;
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
 
-height: 30rem;
-overflow: hidden;
+    height: 30rem;
+    overflow: hidden;
 
     .container{
         @include centroPagina;
@@ -78,6 +73,7 @@ overflow: hidden;
         width: 50%;
         color: $coloreTestoGrigio;
         margin-top: 20px;
+        padding-left: 1.5rem;
 
         a{
             text-decoration: none;
@@ -116,9 +112,6 @@ overflow: hidden;
         }
     }
 }
-
-
-
 // footer middle end
 
 
@@ -132,7 +125,7 @@ overflow: hidden;
     }
   }
 
-  .btn{
+.btn{
     border: 2px solid $colorBlue;
 
     padding: 0.8rem;
@@ -144,7 +137,7 @@ overflow: hidden;
     }
 }
 
-  .contenitore{
+.contenitore{
     color: $colorBlue;
     font-weight: bold;
 
@@ -159,5 +152,4 @@ overflow: hidden;
         margin: 0 0.8rem;
     }
 }
-
 // footer down end

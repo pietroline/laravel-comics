@@ -27,7 +27,7 @@
                         </a>
             
                     </div>
-                    <h5>{{$fumetto['series']}}</h5>
+                    <h3>{{$fumetto['series']}}</h5>
             
                 </div>
             @endforeach
