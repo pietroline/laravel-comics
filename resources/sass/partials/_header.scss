@@ -42,7 +42,7 @@ nav{
     li{
         display: inline-block;
 
-        padding: 4rem 2rem;
+        padding: 4rem 0.5rem;
 
         font-weight: bold;
         font-size: 1rem;
@@ -60,7 +60,7 @@ nav{
 
         input{
             border: none;
-            border-bottom: 2px solid $colorBlue;
+            border-bottom: 3px solid $colorBlue;
             text-align: end;
             font-size: 25px;
             padding: 0 30px;

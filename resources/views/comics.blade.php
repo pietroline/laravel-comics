@@ -6,12 +6,10 @@
 
 @section('content')
 
-    <div>
-        <section class="jumbotron"></section>
-                 
+    <div>                 
         <div class="container">
             <span class="btn_blue_big">Current Series</span>
-
+            
             @foreach ($fumetti as  $fumetto)
                 <div class="card">
 
@@ -27,7 +25,7 @@
                         </a>
             
                     </div>
-                    <h3>{{$fumetto['series']}}</h5>
+                    <h5>{{$fumetto['series']}}</h5>
             
                 </div>
             @endforeach
