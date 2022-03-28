@@ -108,3 +108,136 @@ nav .active a {
   color: #0082f3;
 }
 
+.footerUp {
+  background-color: #0082f3;
+}
+
+.footerUp .container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fasciaBlu {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #0082f3;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fasciaBlu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.fasciaBlu a img {
+  height: 3rem;
+}
+
+.fasciaBlu a h5 {
+  padding-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.footerMiddle {
+  background-color: #000;
+  background-size: cover;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.footerMiddle .container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.footerMiddle .container img {
+  height: 45rem;
+  position: absolute;
+  top: -8rem;
+  right: 0;
+}
+
+.footerMiddle .paragrafo {
+  width: 50%;
+  color: #a7a7a7;
+}
+
+.footerMiddle .paragrafo a {
+  text-decoration: none;
+  color: #0082f3;
+}
+
+.footerMiddle ul {
+  list-style: none;
+  padding: 0.5rem 1.5rem;
+}
+
+.footerMiddle ul li:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.footerMiddle ul li:first-child a {
+  color: #fff;
+}
+
+.footerMiddle ul a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
+
+.footerMiddle ul a:hover {
+  color: #fff;
+}
+
+.footerMiddle ul li {
+  padding: 0.2rem 0;
+}
+
+.footerDown {
+  background-color: #333;
+  padding: 2rem 0;
+}
+
+.footerDown .container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn {
+  border: 2px solid #0082f3;
+  padding: 0.8rem;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.contenitore {
+  color: #0082f3;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.contenitore span {
+  margin-right: 1rem;
+}
+
+.contenitore a {
+  margin: 0 0.8rem;
+}
+

@@ -1,0 +1,162 @@
+@import "./variables";
+
+// footer up start
+
+.footerUp{
+    background-color: $colorBlue;
+
+    .container{
+        @include centroPagina;
+    }
+}
+
+
+
+.fasciaBlu{
+
+    width: 70%;
+    margin: 0 auto;
+
+    background-color: $colorBlue;
+
+    height: 8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        
+        display: flex;
+        align-items: center;
+
+        padding: 0 2rem;
+
+        img{
+           height: 3rem;
+        }
+
+        h5{
+            padding-left: 1rem;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+// footer up end
+
+
+// footer middle inizio
+.footerMiddle{
+// background-image: url("{{asset('img/footer-bg.jpg')}}");
+background-color: #000;
+background-size: cover;
+
+height: 30rem;
+overflow: hidden;
+
+    .container{
+        @include centroPagina;
+
+        padding: 3rem 0;
+        position: relative;
+
+        img{
+            height: 45rem;
+            
+            position: absolute;
+            top: -8rem;
+            right: 0;
+        }
+    }
+
+    .paragrafo{
+        width: 50%;
+        color: $coloreTestoGrigio;
+
+        a{
+            text-decoration: none;
+            color: $colorBlue;
+        }
+    }
+
+    ul{
+
+        list-style: none;
+        padding: 0.5rem 1.5rem;
+    
+        li:first-child{
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.3rem;
+    
+                margin-bottom: 0.2rem;
+    
+                a{
+                    color: #fff;
+                }
+            }
+    
+        a{
+            text-decoration: none;
+            color: $coloreTestoGrigio;
+    
+            &:hover{
+                color: #fff;
+            }
+        }
+    
+        li{
+            padding: 0.2rem 0;
+        }
+    }
+}
+
+
+
+// footer middle end
+
+
+// footer down start
+.footerDown{
+    background-color: $coloreNero;
+    padding: 2rem 0;
+
+    .container{
+       @include centroPagina;
+    }
+  }
+
+  .btn{
+    border: 2px solid $colorBlue;
+
+    padding: 0.8rem;
+
+    color: #fff;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+  .contenitore{
+    color: $colorBlue;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+
+    span{
+        margin-right: 1rem;
+    }
+
+    a{
+        margin: 0 0.8rem;
+    }
+}
+
+// footer down end
