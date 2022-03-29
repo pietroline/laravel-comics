@@ -27,7 +27,7 @@
                 <li class="{{Request::route()->getName() == "characters" ? 'active':''}}">
                     <a href="{{route('characters')}}">Characters</a>
                 </li>
-                <li class="{{Request::route()->getName() == "comics" ? 'active':''}}">
+                <li class="{{(Request::route()->getName() == "comics" || Request::route()->getName() == "fumetto" )? 'active':''}}">
                     <a href="{{route('comics')}}">Comics</a>
                 </li>
                 <li class="{{Request::route()->getName() == "movies" ? 'active':''}}">
