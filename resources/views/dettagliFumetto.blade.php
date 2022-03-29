@@ -9,6 +9,10 @@
 @section('content')
 
     <div class="container_dettagli"> 
+        <a href="{{route('comics')}}">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>torna alla pagina precedente</span>
+        </a>
         <h1>{{$fumetto["title"]}}</h1>
         <p>{{$fumetto["description"]}}</p>
     </div>

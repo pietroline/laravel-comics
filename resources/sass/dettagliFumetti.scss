@@ -8,9 +8,23 @@ main{
     width: 60%;
     margin: 5rem auto;
     
+    a{
+        text-decoration: none;
+        color: $coloreNero;
+        display: flex;
+        align-items: center;
+
+        i{
+            font-size: 2rem;
+            padding-right: 0.5rem;
+        }
+
+    }
+    
+
     h1{
         color: $colorBlue;
-        margin-bottom: 1rem;
+        margin: 1rem 0;
     }
 
     p{
