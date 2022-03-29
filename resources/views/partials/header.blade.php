@@ -54,15 +54,14 @@
                 <li class="{{Request::route()->getName() == "shop" ? 'active':''}}">
                     <a href="{{route('shop')}}">Shop</a>
                 </li>
-                <li>
-                    <div class="search">
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                </li>
             </ul>
     
         </nav>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
 
    </div>
 </header>

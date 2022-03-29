@@ -39,6 +39,10 @@ main{
     
     display: flex;
 
+    .padding_right_1rem{
+        padding-right: 1rem;
+    }
+
     a{
         text-decoration: none;
         color: $colorBlue;
@@ -54,7 +58,7 @@ main{
 
        .dettagli{
            display: flex;
-           margin: 2rem;
+           margin: 2rem 0;
        }
 
       .series{

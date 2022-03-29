@@ -58,29 +58,6 @@ nav{
             padding: 4rem 0;
         }  
 
-        input{
-            border: none;
-            border-bottom: 3px solid $colorBlue;
-            text-align: end;
-            font-size: 25px;
-            padding: 0 30px;
-            width: 10rem;
-        }
-
-        .search{
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-
-        i{
-            color: $coloreTestoGrigio;
-            position: absolute;
-            right: 0;
-            color: $coloreNero;
-            font-size: 25px;
-        }
-
     }
 
     .active{
@@ -91,5 +68,29 @@ nav{
             color: $colorBlue;
         }
     }
+}
+
+
+input{
+    border: none;
+    border-bottom: 3px solid $colorBlue;
+    text-align: end;
+    font-size: 20px;
+    padding: 0 30px;
+    width: 12rem;
+}
+
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search i{
+    color: $coloreTestoGrigio;
+    position: absolute;
+    right: 0;
+    color: $coloreNero;
+    font-size: 20px;
 }
 

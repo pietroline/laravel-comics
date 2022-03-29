@@ -71,26 +71,6 @@ nav li:hover a {
   border-bottom: 5px solid #0082f3;
   padding: 4rem 0;
 }
-nav li input {
-  border: none;
-  border-bottom: 3px solid #0082f3;
-  text-align: end;
-  font-size: 25px;
-  padding: 0 30px;
-  width: 10rem;
-}
-nav li .search {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-nav li i {
-  color: #a7a7a7;
-  position: absolute;
-  right: 0;
-  color: #333;
-  font-size: 25px;
-}
 nav .active {
   border-bottom: 5px solid #0082f3;
   padding: 4rem 0;
@@ -99,8 +79,31 @@ nav .active a {
   color: #0082f3;
 }
 
+input {
+  border: none;
+  border-bottom: 3px solid #0082f3;
+  text-align: end;
+  font-size: 20px;
+  padding: 0 30px;
+  width: 12rem;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search i {
+  color: #a7a7a7;
+  position: absolute;
+  right: 0;
+  color: #333;
+  font-size: 20px;
+}
+
 .jumbotron {
-  height: 38rem;
+  height: 25rem;
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
 }

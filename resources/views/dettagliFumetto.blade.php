@@ -23,8 +23,8 @@
             <h3>Talent</h3>
 
             <div class="dettagli">
-                <div>Art by: </div>
-                <div>
+                <div class="padding_right_1rem">Art by: </div>
+                <div class="padding_right_1rem">
                     @foreach ($fumetto["artists"] as $artist)
                         <a href="#">{{$artist}}</a>
                     @endforeach
@@ -32,8 +32,8 @@
             </div>
 
             <div class="dettagli">
-                <div>Written by: </div>
-                <div>
+                <div class="padding_right_1rem">Written by: </div>
+                <div class="padding_right_1rem">
                     @foreach ($fumetto["writers"] as $writer)
                         <a href="#">{{$writer}}</a>
                     @endforeach
@@ -45,21 +45,21 @@
             <h3>Specs</h3>
 
             <div class="dettagli">
-                <div>Series: </div>
-                <div class="series">
+                <div class="padding_right_1rem">Series: </div>
+                <div class="series padding_right_1rem">
                     {{$fumetto["series"]}}
                 </div>
             </div>
 
             <div class="dettagli">
-                <div>U.S. Price: </div>
+                <div class="padding_right_1rem">U.S. Price: </div>
                 <div>
                     {{$fumetto["price"]}}
                 </div>
             </div>
 
             <div class="dettagli">
-                <div>On Sales Date: </div>
+                <div class="padding_right_1rem">On Sales Date: </div>
                 <div>
                     {{$fumetto["sale_date"]}}
                 </div>

@@ -30,6 +30,9 @@ main {
   padding: 1rem 20%;
   display: flex;
 }
+.info .padding_right_1rem {
+  padding-right: 1rem;
+}
 .info a {
   text-decoration: none;
   color: #0082f3;
@@ -43,7 +46,7 @@ main {
 }
 .info .talent .dettagli, .info .specs .dettagli {
   display: flex;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 .info .talent .series, .info .specs .series {
   text-transform: uppercase;
