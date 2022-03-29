@@ -15,7 +15,7 @@
 
                     <div class="contenitoreImg">
                         
-                        <a href="/comics/fumetto/{{$key}}">
+                        <a href="{{route("fumetto", ["id" => $key])}}">
                             <img src="{{$fumetto['thumb']}}" alt="'img DC type ' + {{$fumetto['type']}}">
                         
                             <div class="price">

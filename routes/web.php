@@ -30,4 +30,4 @@ Route::get("/comics/fumetto/{id}", function($id){
     }else{
         abort(404, "Fumetto non trovato!");
     }
-});
+})->name("fumetto");
