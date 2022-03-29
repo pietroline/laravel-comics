@@ -1,5 +1,14 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/dettagliFumetti.css": "/css/dettagliFumetti.css"
+    "/css/dettagliFumetti.css": "/css/dettagliFumetti.css",
+    "/css/characters.css": "/css/characters.css",
+    "/css/movies.css": "/css/movies.css",
+    "/css/tv.css": "/css/tv.css",
+    "/css/games.css": "/css/games.css",
+    "/css/collectibles.css": "/css/collectibles.css",
+    "/css/videos.css": "/css/videos.css",
+    "/css/fans.css": "/css/fans.css",
+    "/css/news.css": "/css/news.css",
+    "/css/shop.css": "/css/shop.css"
 }

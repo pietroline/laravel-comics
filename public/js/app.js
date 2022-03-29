@@ -19425,6 +19425,28 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/characters.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/characters.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/collectibles.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/collectibles.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/dettagliFumetti.scss":
 /*!*********************************************!*\
   !*** ./resources/sass/dettagliFumetti.scss ***!
@@ -19436,16 +19458,102 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/fans.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/fans.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/games.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/games.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/movies.scss":
+/*!************************************!*\
+  !*** ./resources/sass/movies.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/news.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/news.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/shop.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/shop.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/tv.scss":
+/*!********************************!*\
+  !*** ./resources/sass/tv.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/videos.scss":
+/*!************************************!*\
+  !*** ./resources/sass/videos.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!***************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/dettagliFumetti.scss ***!
-  \***************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/dettagliFumetti.scss ./resources/sass/characters.scss ./resources/sass/movies.scss ./resources/sass/tv.scss ./resources/sass/games.scss ./resources/sass/collectibles.scss ./resources/sass/videos.scss ./resources/sass/fans.scss ./resources/sass/news.scss ./resources/sass/shop.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/dettagliFumetti.scss */"./resources/sass/dettagliFumetti.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/dettagliFumetti.scss */"./resources/sass/dettagliFumetti.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/characters.scss */"./resources/sass/characters.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/movies.scss */"./resources/sass/movies.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/tv.scss */"./resources/sass/tv.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/games.scss */"./resources/sass/games.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/collectibles.scss */"./resources/sass/collectibles.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/videos.scss */"./resources/sass/videos.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/fans.scss */"./resources/sass/fans.scss");
+__webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/news.scss */"./resources/sass/news.scss");
+module.exports = __webpack_require__(/*! /home/pietroline/Scrivania/Personale/boolean/GitHub/progetti_LARAVEL/laravel-comics/resources/sass/shop.scss */"./resources/sass/shop.scss");
 
 
 /***/ })

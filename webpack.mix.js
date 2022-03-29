@@ -14,4 +14,13 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/dettagliFumetti.scss', 'public/css')
+    .sass('resources/sass/characters.scss', 'public/css')
+    .sass('resources/sass/movies.scss', 'public/css')
+    .sass('resources/sass/tv.scss', 'public/css')
+    .sass('resources/sass/games.scss', 'public/css')
+    .sass('resources/sass/collectibles.scss', 'public/css')
+    .sass('resources/sass/videos.scss', 'public/css')
+    .sass('resources/sass/fans.scss', 'public/css')
+    .sass('resources/sass/news.scss', 'public/css')
+    .sass('resources/sass/shop.scss', 'public/css')
     .options({ processCssUrls: false });
