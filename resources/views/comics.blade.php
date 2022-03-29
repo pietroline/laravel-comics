@@ -10,12 +10,12 @@
         <div class="container">
             <span class="btn_blue_big">Current Series</span>
             
-            @foreach ($fumetti as  $fumetto)
+            @foreach ($fumetti as $key => $fumetto)
                 <div class="card">
 
                     <div class="contenitoreImg">
-            
-                        <a href="#">
+                        
+                        <a href="/comics/fumetto/{{$key}}">
                             <img src="{{$fumetto['thumb']}}" alt="'img DC type ' + {{$fumetto['type']}}">
                         
                             <div class="price">

@@ -1,0 +1,55 @@
+@import "partials/_variables";
+
+main{
+    background-color: #fff;
+}
+
+.container_dettagli{
+    width: 60%;
+    margin: 5rem auto;
+    
+    h1{
+        color: $colorBlue;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        color: $coloreNero;
+        font-weight: 200;
+    }
+}
+
+.info{
+    background-color: $grey;
+    padding: 1rem 20%;
+    
+    display: flex;
+
+    a{
+        text-decoration: none;
+        color: $colorBlue;
+    }
+
+    .talent, .specs{
+        margin: 1rem;
+        width: 50%;
+
+       h3{
+           margin-bottom: 2rem;
+       }
+
+       .dettagli{
+           display: flex;
+           margin: 2rem;
+       }
+
+      .series{
+          text-transform: uppercase;
+          color: $colorBlue;
+      }
+    }
+
+    .specs{
+        margin: 1rem;
+    }
+}

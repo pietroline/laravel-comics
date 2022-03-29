@@ -1,0 +1,44 @@
+main {
+  background-color: #fff;
+}
+
+.container_dettagli {
+  width: 60%;
+  margin: 5rem auto;
+}
+.container_dettagli h1 {
+  color: #0082f3;
+  margin-bottom: 1rem;
+}
+.container_dettagli p {
+  color: #333;
+  font-weight: 200;
+}
+
+.info {
+  background-color: #f6f6f6;
+  padding: 1rem 20%;
+  display: flex;
+}
+.info a {
+  text-decoration: none;
+  color: #0082f3;
+}
+.info .talent, .info .specs {
+  margin: 1rem;
+  width: 50%;
+}
+.info .talent h3, .info .specs h3 {
+  margin-bottom: 2rem;
+}
+.info .talent .dettagli, .info .specs .dettagli {
+  display: flex;
+  margin: 2rem;
+}
+.info .talent .series, .info .specs .series {
+  text-transform: uppercase;
+  color: #0082f3;
+}
+.info .specs {
+  margin: 1rem;
+}
