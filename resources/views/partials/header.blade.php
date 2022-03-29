@@ -24,35 +24,35 @@
         <nav>
 
             <ul>
-                <li>
-                    <a href="/characters">Characters</a>
+                <li class="{{Request::route()->getName() == "characters" ? 'active':''}}">
+                    <a href="{{route('characters')}}">Characters</a>
                 </li>
-                <li>
-                    <a href="/">Comics</a>
+                <li class="{{Request::route()->getName() == "comics" ? 'active':''}}">
+                    <a href="{{route('comics')}}">Comics</a>
                 </li>
-                <li>
-                    <a href="/movies">Movies</a>
+                <li class="{{Request::route()->getName() == "movies" ? 'active':''}}">
+                    <a href="{{route('movies')}}">Movies</a>
                 </li>
-                <li>
-                    <a href="/tv">Tv</a>
+                <li class="{{Request::route()->getName() == "tv" ? 'active':''}}">
+                    <a href="{{route('tv')}}">Tv</a>
                 </li>
-                <li>
-                    <a href="/games">Games</a>
+                <li class="{{Request::route()->getName() == "games" ? 'active':''}}">
+                    <a href="{{route('games')}}">Games</a>
                 </li>
-                <li>
-                    <a href="/collectibles">Collectibles</a>
+                <li class="{{Request::route()->getName() == "collectibles" ? 'active':''}}">
+                    <a href="{{route('collectibles')}}">Collectibles</a>
                 </li>
-                <li>
-                    <a href="/videos">Videos</a>
+                <li class="{{Request::route()->getName() == "videos" ? 'active':''}}">
+                    <a href="{{route('videos')}}">Videos</a>
                 </li>
-                <li>
-                    <a href="/fans">Fans</a>
+                <li class="{{Request::route()->getName() == "fans" ? 'active':''}}">
+                    <a href="{{route('fans')}}">Fans</a>
                 </li>
-                <li>
-                    <a href="/news">News</a>
+                <li class="{{Request::route()->getName() == "news" ? 'active':''}}">
+                    <a href="{{route('news')}}">News</a>
                 </li>
-                <li>
-                    <a href="/shop">Shop</a>
+                <li class="{{Request::route()->getName() == "shop" ? 'active':''}}">
+                    <a href="{{route('shop')}}">Shop</a>
                 </li>
                 <li>
                     <div class="search">
