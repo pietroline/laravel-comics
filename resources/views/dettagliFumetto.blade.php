@@ -8,13 +8,39 @@
 
 @section('content')
 
+    <div class="intestazione">
+        <img src="{{$fumetto["thumb"]}}" alt="img thumb">
+    </div>
+
     <div class="container_dettagli"> 
+
         <a href="{{route('comics')}}">
             <i class="fa-solid fa-arrow-left"></i>
             <span>torna alla pagina precedente</span>
         </a>
-        <h1>{{$fumetto["title"]}}</h1>
-        <p>{{$fumetto["description"]}}</p>
+        <div class="mainContent">
+
+            <div>
+                <h1>{{$fumetto["title"]}}</h1>
+                <div class="bigBtn">
+                    <a href="#" class="btnAcquista"> 
+                        <span>U.S. Price ${{$fumetto["price"]}}</span>
+                        <span>AVAIBLE</span>
+                    </a>
+                    <a href="#" class="btnCheck">
+                        <span>Check Availability</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                </div>
+                <p>{{$fumetto["description"]}}</p>
+            </div>
+
+            <div class="pubblicita">
+                <div>ADVERTISEMENT</div>
+                <a href="#"><img src="{{asset("img/adv.jpg")}}" alt="img advertisement"></a>
+            </div>
+
+        </div>
     </div>
 
     <div class="info">

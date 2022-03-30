@@ -4,10 +4,24 @@ main{
     background-color: #fff;
 }
 
+.intestazione{
+    height: 3rem;
+    background-color: $colorBlue;
+
+    position: relative;
+
+    img{
+        position: absolute;
+        bottom: 1rem;
+        left: 20%;
+    }
+
+}
+
 .container_dettagli{
     width: 60%;
     margin: 5rem auto;
-    
+
     a{
         text-decoration: none;
         color: $coloreNero;
@@ -20,17 +34,62 @@ main{
         }
 
     }
+
+    .mainContent{
+        display: flex;
+
+        .bigBtn{
+            background-color: $green;
+            a{
+                color: #fff;
+            }
+            height: 3rem;
+            display: flex;
+            margin-bottom: 1rem;
+           
+            .btnAcquista{
+                border: 1px solid #fff;
+                width: calc(60% - 1px);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 1rem;
+            }
+
+            .btnCheck{
+                border: 1px solid #fff;
+                width: calc(40% - 1px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i{
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+        .pubblicita{
+            text-align: end;
+            img{
+                margin-left: 2rem;
+            }
+        }
+
+        h1{
+            color: $colorBlue;
+            margin: 1rem 0;
+        }
+    
+        p{
+            color: $coloreNero;
+            font-weight: 200;
+        }
+
+    }
     
 
-    h1{
-        color: $colorBlue;
-        margin: 1rem 0;
-    }
-
-    p{
-        color: $coloreNero;
-        font-weight: 200;
-    }
+    
 }
 
 .info{

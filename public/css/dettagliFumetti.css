@@ -2,6 +2,17 @@ main {
   background-color: #fff;
 }
 
+.intestazione {
+  height: 3rem;
+  background-color: #0082f3;
+  position: relative;
+}
+.intestazione img {
+  position: absolute;
+  bottom: 1rem;
+  left: 20%;
+}
+
 .container_dettagli {
   width: 60%;
   margin: 5rem auto;
@@ -16,11 +27,47 @@ main {
   font-size: 2rem;
   padding-right: 0.5rem;
 }
-.container_dettagli h1 {
+.container_dettagli .mainContent {
+  display: flex;
+}
+.container_dettagli .mainContent .bigBtn {
+  background-color: #3fb961;
+  height: 3rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.container_dettagli .mainContent .bigBtn a {
+  color: #fff;
+}
+.container_dettagli .mainContent .bigBtn .btnAcquista {
+  border: 1px solid #fff;
+  width: calc(60% - 1px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.container_dettagli .mainContent .bigBtn .btnCheck {
+  border: 1px solid #fff;
+  width: calc(40% - 1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_dettagli .mainContent .bigBtn .btnCheck i {
+  font-size: 1rem;
+}
+.container_dettagli .mainContent .pubblicita {
+  text-align: end;
+}
+.container_dettagli .mainContent .pubblicita img {
+  margin-left: 2rem;
+}
+.container_dettagli .mainContent h1 {
   color: #0082f3;
   margin: 1rem 0;
 }
-.container_dettagli p {
+.container_dettagli .mainContent p {
   color: #333;
   font-weight: 200;
 }

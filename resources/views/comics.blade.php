@@ -6,7 +6,8 @@
 
 @section('content')
 
-    <div>                 
+    <div>  
+
         <div class="container">
             <span class="btn_blue_big">Current Series</span>
             
